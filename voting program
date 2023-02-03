@@ -1,0 +1,7 @@
+#votingprogram
+citizen=(input("Enter citizenship:").lower())
+Age=int(input("Enter age:))
+if citizen=="Kenyan" and Age>=18:
+print("allowed to vote")
+else
+print("not allowed to vote")
