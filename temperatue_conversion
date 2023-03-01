@@ -1,0 +1,12 @@
+#Temperature
+class Temperature:
+ def__init__(self,celsius,farenheit):
+   self.celsius=celcius
+   self.farenheit=farenheit
+ def convert_farenheit(self):
+   return(9/5*self.celsius)+(32)
+ def convert_celsius(self):
+   return(5/9*self.farenheit)+(32)
+t=Temperatur(78,90)
+print(t.convert_farenheit())
+print(t.convert_celsius())
