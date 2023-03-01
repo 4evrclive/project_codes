@@ -1,0 +1,5 @@
+#function to calculate volume of sphere
+def volume_of_sphere(radius):
+volume=4/3*3.142*radius*radius
+ return volume
+print(volume_of_sphere(20))
